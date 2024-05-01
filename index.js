@@ -116,7 +116,7 @@ var _gsScope="undefined"!=typeof module&&module.exports&&"undefined"!=typeof glo
 
         // assign a circle to each point
         for(var i in points) {
-            var c = new Circle(points[i], 2+Math.random()*14, 'rgba(35,169,242, 0.3)');
+            var c = new Circle(points[i], 2+Math.random()*2, 'rgba(35,169,242, 0.3)');
             points[i].circle = c;
         }
     }
